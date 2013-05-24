@@ -1,7 +1,7 @@
-body {background-color:#0F4D92;}
+body {background-color:#A4A4A4; margin-left:-50px;}
 
 .subheader {
-    text-align:center;
+    text-align:center; font-size: 30px;
 }
 
 .header{
@@ -9,15 +9,21 @@ body {background-color:#0F4D92;}
 }
 
 .read {
-  width: 400px;
+  width: 500px;
   
 }
 
 .read1 {
-  width: 400px;
-  height: 281px;
+  width: 500px;
+  
   
 }
+
+
+.fishimage { width: 500px; overflow:hidden; float:left; margin: -75px 0 0 -10px; }
+
+
+
 .labels1 {
 	padding-left: 100px;
 	padding-right: 100px;
@@ -28,35 +34,35 @@ body {background-color:#0F4D92;}
 	float:left;
 }
 
-div {
+/*div {
 	margin: 20px 20px 20px 20px;
 }
-
+*/
 ul.gallery li {
    border:1px solid #BBBBBB;
    float:left;
    
    margin-right:7px;
    margin-top:7px;
-   width:400px;
-}
-/
+   width:480px;
+
 ul.gallery {
    height:200px;
    width:200px;
    list-style-type: none;
 }
-*/
+
 
 section {
   float: left;
   margin: 10px;
-  width: 600px;
+  width: 700px;
 }
 aside {
   float: right;
   margin: 10px;
-  width: 320px;
+  width: 300px;
+  position: fixed;
 }
 
 
