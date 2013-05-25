@@ -1,7 +1,11 @@
 body {background-image:url(http://glasgowyp.co.uk/wp-content/uploads/2012/04/Rubiks_cube_by_keqs.jpg); background-attachment:fixed;background-repeat: no-repeat; margin-left:-50px;}
 
 .subheader {
-    position: absolute;left:25%; top:10%; font-size: 30px;
+    text-align:center;font-size: 30px; padding-top: 50px; position: fixed;padding-left:100px; 
+}
+
+.subbox{
+  width: 1000px; height: 100px;
 }
 
 .header{
@@ -10,12 +14,6 @@ body {background-image:url(http://glasgowyp.co.uk/wp-content/uploads/2012/04/Rub
 
 .read {
   width: 300px;
-  
-}
-
-.read1 {
-  width: 300px;
-  
   
 }
 
@@ -44,6 +42,8 @@ opacity:1.0;
   margin:3px 3px;
   font-size: 16px;
   color:#000000;
+  line-height:1.75;
+  opacity: 1;
   }
 
 .labels1 {
@@ -61,10 +61,9 @@ opacity:1.0;
 }
 */
 ul.gallery li {
-  margin-top: 150px;
-   border:1px solid #BBBBBB;
+ 
+  margin-top: 10px;
    margin-left:300px;
-   
    width:300px;
    list-style-type: none;
 }
