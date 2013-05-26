@@ -1,15 +1,15 @@
-body {background-image:url(http://glasgowyp.co.uk/wp-content/uploads/2012/04/Rubiks_cube_by_keqs.jpg); background-attachment:fixed;background-repeat: no-repeat; margin-left:-50px;}
+body {background-image:url(http://glasgowyp.co.uk/wp-content/uploads/2012/04/Rubiks_cube_by_keqs.jpg); background-attachment:fixed;background-repeat: no-repeat; margin-left:0px;}
 
 .subheader {
     text-align:center;font-size: 30px; padding-top: 50px; position: fixed;padding-left:100px;  width: 1000px; height: 50px; 
 }
 
-.subbox{
-  width: 1000px; height: 50px; 
+.social{
+  float:left;
 }
 
 .header{
-    position:fixed;font-size: 40px; margin-left:700px;
+    position:fixed;
 }
 
 .read {
@@ -18,31 +18,36 @@ body {background-image:url(http://glasgowyp.co.uk/wp-content/uploads/2012/04/Rub
 }
 .gmail{
   position:fixed;
-  margin-left: 860px;
-  width:25px;
-  height:25px;
+  margin-left: 10px;
+  margin-top: -25px;
+  width:70px;
+  height:70px;
 }
 
 .facebook{
   position:fixed;
-  margin-left: 900px;
-  width:25px;
-  height:25px;
+  margin-left: 90px;
+  margin-top: -25px;
+  width:70px;
+  height:70px;
 }
 
 .linkedin{
   position:fixed;
-  margin-left: 940px;
-  width:25px;
-  height:25px;
+  margin-left: 170px;
+  margin-top: -25px;
+  width:70px;
+  height:70px;
 }
+
 
 
 hr {
     border: 0;
     height: 1px;
     background: #333;
-    margin-left: 700px;
+    
+    margin-left: 700px; margin-right: 200px;
     background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
     background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
     background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
@@ -65,10 +70,12 @@ opacity:1.0;
 .transbox
   {
   width:250px;
-  height:1000px;
+  height:400px;
   background-color:#ffffff;
 
   opacity:0.6;
+  -moz-border-radius: 30px;
+   border-radius: 30px;
   }
 
 .text
@@ -90,11 +97,7 @@ opacity:1.0;
 	float:left;
 }
 
-/*div {
-	margin: 20px 20px 20px 20px;
-}
-*/
-ul.gallery li {
+ul.gallery {
  
   margin-top: 10px;
    margin-left:300px;
@@ -105,22 +108,28 @@ ul.gallery li {
 }
 
 
-
-
-
 aside {
  float: right;
-
   margin: 10px;
   width: 20%;
   -webkit-position: fixed; top:2%; right:2%;
- 
 }
-
-
 
 .sidebar {
   position: fixed;
   right:25%; top:15%;
+}
+
+
+a:link
+{
+color:black;
+text-decoration:none;
+}
+
+a:visited
+{
+color:black;
+text-decoration:none;
 }
 
