@@ -1,25 +1,59 @@
 body {background-image:url(http://glasgowyp.co.uk/wp-content/uploads/2012/04/Rubiks_cube_by_keqs.jpg); background-attachment:fixed;background-repeat: no-repeat; margin-left:-50px;}
 
 .subheader {
-    text-align:center;font-size: 30px; padding-top: 50px; position: fixed;padding-left:100px; 
+    text-align:center;font-size: 30px; padding-top: 50px; position: fixed;padding-left:100px;  width: 1000px; height: 50px; 
 }
 
 .subbox{
-  width: 1000px; height: 100px;
+  width: 1000px; height: 50px; 
 }
 
 .header{
-    text-align:center; font-size: 40px; right:25%; top:0%;position: fixed;
+    position:fixed;font-size: 40px; margin-left:700px;
 }
 
 .read {
   width: 300px;
   
 }
+.gmail{
+  position:fixed;
+  margin-left: 860px;
+  width:25px;
+  height:25px;
+}
+
+.facebook{
+  position:fixed;
+  margin-left: 900px;
+  width:25px;
+  height:25px;
+}
+
+.linkedin{
+  position:fixed;
+  margin-left: 940px;
+  width:25px;
+  height:25px;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin-left: 700px;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
 
 img
 {
 opacity:0.85;
+-moz-border-radius: 30px;
+   border-radius: 30px;
 
 }
 img:hover
@@ -33,7 +67,7 @@ opacity:1.0;
   width:250px;
   height:1000px;
   background-color:#ffffff;
-  border:1px solid black;
+
   opacity:0.6;
   }
 
@@ -66,15 +100,13 @@ ul.gallery li {
    margin-left:300px;
    width:300px;
    list-style-type: none;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
 }
 
 
 
-section {
-  float: left;
-  margin: 10px;
-  width: 700px;
-}
+
 
 aside {
  float: right;
