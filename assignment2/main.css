@@ -14,28 +14,31 @@ body {background-image:url(http://glasgowyp.co.uk/wp-content/uploads/2012/04/Rub
 
 .read {
   width: 300px;
-  
+opacity:0.85;
+-moz-border-radius: 30px;
+border-radius: 30px;
 }
+
 .gmail{
   position:fixed;
   margin-left: 10px;
-  margin-top: -25px;
+  margin-top: -10px;
   width:70px;
   height:70px;
 }
 
 .facebook{
   position:fixed;
-  margin-left: 90px;
-  margin-top: -25px;
+  margin-left: 105px;
+  margin-top: -10px;
   width:70px;
   height:70px;
 }
 
 .linkedin{
   position:fixed;
-  margin-left: 170px;
-  margin-top: -25px;
+  margin-left: 200px;
+  margin-top: -10px;
   width:70px;
   height:70px;
 }
@@ -54,15 +57,13 @@ hr {
     background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
 }
 
-img
-{
+img {
 opacity:0.85;
 -moz-border-radius: 30px;
-   border-radius: 30px;
-
+border-radius: 30px;
 }
-img:hover
-{
+
+img:hover {
 opacity:1.0;
 }
 
@@ -81,6 +82,7 @@ opacity:1.0;
 .text
   {
   margin:3px 3px;
+  text-align: center;
   font-size: 16px;
   color:#000000;
   line-height:1.75;
@@ -90,16 +92,16 @@ opacity:1.0;
 .labels1 {
 	padding-left: 100px;
 	padding-right: 100px;
-    float:left;
+  float:left;
 }
 
 .labels2 {
 	float:left;
 }
 
-ul.gallery {
+ul.gallery li {
  
-  margin-top: 10px;
+   margin-top: 0px;
    margin-left:300px;
    width:300px;
    list-style-type: none;
@@ -121,15 +123,12 @@ aside {
 }
 
 
-a:link
-{
+a:link {
 color:black;
 text-decoration:none;
 }
 
-a:visited
-{
+a:visited {
 color:black;
 text-decoration:none;
 }
-
