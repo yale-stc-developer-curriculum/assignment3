@@ -1,0 +1,206 @@
+/* BASIC FONT DECLARATIONS */
+/* ////////////////////////////////////////////////////////////////// */
+
+.helvetica
+{
+ font-weight:200;
+ letter-spacing:0.30em;
+ text-transform:uppercase;
+ font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+ }
+ 
+ .verdana
+{
+ font-weight:500;
+ letter-spacing:0.07em;
+ font-family: Verdana, sans-serif;
+ }
+
+ .verdana2
+{
+ font-weight:400;
+ letter-spacing:0.06em;
+ font-family: Verdana, sans-serif;
+ }
+ 
+ .georgia
+{
+ font-weight:300;
+ letter-spacing:0.07em;
+ font-family: georgia, serif;
+ }
+
+ .header
+{
+ /*the header box */
+
+ height:auto;
+ width:940px;
+ padding-top:35px;
+ padding-bottom:35px;
+ /* OVERALL WIDTH of 980*/
+ 
+ margin-left:20px;
+ margin-right:20px;
+ border-top:4px solid #42C0FB;
+ border-bottom:4px solid #42C0FB;
+ background-color:#000000;
+
+}
+
+.header1 {
+	font-size:24px;
+	/*text-transform:uppercase;*/
+	color:#FFFFFF;
+	margin-left:25px;
+}
+			.header1 A:link {color: #FFFFFF; text-decoration: none} 
+			.header1 A:visited {color: #FFFFFF; text-decoration: none} 
+			.header1 A:active {color: #FFFFFF; text-decoration: none} 
+			.header1 A:hover {color: #42C0FB; text-decoration: none; } 
+}
+
+.header2 {
+		}
+
+.header2 a{
+			float:right;
+			margin-left:12px;
+			-webkit-transition: border-bottom .2s ease-in-out;
+			border-bottom: 2px solid rgba(0, 0, 0, .0);
+			margin-top:5px;
+			margin-right:25px;
+			font-size:16px;
+			/*text-transform:uppercase;*/
+			color:#FFFFFF;
+			float:right;
+			}
+			.header2 A:link {color: #FFFFFF; text-decoration: none} 
+			.header2 A:visited {color: #FFFFFF; text-decoration: none} 
+			.header2 A:active {color: #FFFFFF; text-decoration: none} 
+			.header2 A:hover {color: #42C0FB; text-decoration: none; border-bottom:2px solid rgba(255, 255, 255, 1);  -webkit-transition: border-bottom .2s ease-in-out;}
+
+#highlighted {
+	font-weight:500;
+	color: #42C0FB;
+	border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.centereverything
+{
+ /*this holds everything, and centers it*/
+width:980px;
+height:auto;
+min-height:100px;
+margin:auto;
+float:center;
+padding-bottom: 0px;
+}
+
+.bodycontent{
+ height:auto;
+ width:940px;
+ padding-top:35px;
+ padding-bottom:35px;
+ margin-left:20px;
+ margin-right:20px;
+ border-top:4px solid #42C0FB;
+ border-bottom:4px solid #42C0FB;
+ background-color:#000000;
+
+}
+
+.footer {
+ height:auto;
+ width:940px;
+ padding-top:10px;
+ padding-bottom:10px;
+ margin: 20px;
+ margin-bottom: 0px;
+ border-top:4px solid #42C0FB;
+ border-bottom:4px solid #42C0FB;
+ background-color:#000000;
+ bottom:0px;
+ text-align:center;
+}
+			.footer A:link {color: #42C0FB; text-decoration: none} 
+			.footer A:visited {color: #FFFFFF; text-decoration: none} 
+			.footer A:active {color: #FFFFFF; text-decoration: none} 
+			.footer A:hover {color: #42C0FB; text-decoration: none; border-bottom:2px solid rgba(255, 255, 255, 1);  -webkit-transition: border-bottom .2s ease-in-out;}
+
+body {
+  color: #F0F0F0;
+  background: url(images/ticks.png);
+}
+
+ul#grid {
+  list-style: none;
+  /*width: 930px; */ /*was 468*/
+  }
+
+#grid li {
+  float: left;
+  margin: 0 24px 20px 0px;
+  } 
+
+.portfolio {
+  margin-left: auto; margin-right: auto;
+  /*background-color: #ffd7ce;*/
+  width: 980px; /*was 510*/
+  }
+  
+#grid li a:hover img {
+  opacity:0.4;  filter:alpha(opacity=30);
+  transition:opacity 0.25s;
+  -moz-transition:opacity 0.25s;
+  -webkit-transition:opacity 0.25s
+  }
+#gnocci:hover .img-overlay{
+opacity:1.00;
+filter: alpha(opacity = 75);
+transition:opacity 0.25s;
+-moz-transition:opacity 0.25s;
+-webkit-transition:opacity 0.25s;
+}
+
+#grid li img {
+  background-color: black;
+  width: 270px;
+  height: 270px;
+  }
+
+.description {
+text-align:left;
+width:270px;
+margin-left:330px;
+text-indent:25px;
+color:#42C0FB;
+}
+
+#william {
+height:600px;
+width:600px;
+margin-left:160px;
+}
+#wordart {
+margin-left:40px;
+}
+
+.img-overlay {
+background-color:#000;
+bottom:200px;
+color:#42C0FB;
+position:absolute;
+opacity:0;
+text-align:center;
+font-size:18px;
+filter: alpha(opacity = 0);
+width:270px;
+z-index:100;
+padding-top:8px;
+padding-bottom:8px;
+}
+
+.plugin {
+background-color:black;
+}
