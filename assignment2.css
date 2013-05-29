@@ -102,12 +102,12 @@ h1 a:visited {
   color: #228B22;
 }
 
-#centertext a:link {
+.centertext a:link {
   color: #228B22;
   font-weight: bold;
 }
 
-#centertext a:visited {
+.centertext a:visited {
   color: #228B22;
   font-weight: bold;
 }
